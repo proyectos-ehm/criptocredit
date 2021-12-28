@@ -157,6 +157,12 @@ ul {
         font-size: 1.3rem;
         text-align: center;
     }
+    
+    .clientes img {
+        width: 120px;
+        display: block;
+        margin: 10px auto;
+    }
 
     .contacto .position-absolute {
         right: 0;
