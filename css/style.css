@@ -145,6 +145,17 @@ ul {
     .prestamo .icon {
         width: 120px;
     }
+    
+    .prestamo h2 {
+        font-size: 1.7rem;
+        margin-top: 30px;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .prestamo p {
+        font-size: 1.3rem;
+    }
 
     .contacto .position-absolute {
         right: 0;
