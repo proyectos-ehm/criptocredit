@@ -123,6 +123,7 @@ ul {
     .home {
     background-position: center;
     }
+    
     .home .logo {
         width: 100px;
     }
@@ -130,14 +131,26 @@ ul {
     .home h1 {
         line-height: 1;
         margin-top: 24px;
+        font-size: 32px;
     }
+    
+    .home h2{
+        font-size: 26px;
+     }        
 
     .with-mobile {
         width: calc(100% - 80px);
+    }
+    .prestamo .icon {
+        width: 120px;
     }
 
     .contacto .position-absolute {
         right: 0;
         display: none;
+    }
+    
+    .contacto img {
+        width: 120px;
     }
 }
