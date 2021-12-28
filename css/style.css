@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.row {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.bg_blue {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 222, 230, 1) 0%, rgba(0, 148, 224, 1) 100%);
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.home {
+    height: 100vh;
+    background: #000;
+    background-image: url(../images/Portada_criptocredit.png);
+    background-size: cover;
+    color: #fff;
+}
+
+.home .row {
+    padding-top: 5rem;
+}
+
+.home .logo {
+    width: 300px;
+}
+
+.prestamo .bg_blue {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 222, 230, 1) 0%, rgba(0, 148, 224, 1) 100%);
+    color: #fff;
+}
+
+.prestamo .icon {
+    width: 180px;
+    display: block;
+    margin: 20px auto;
+}
+
+.prestamo ul li {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.prestamo .bg_blue ul li {
+    text-align: center;
+    margin: 0;
+}
+
+.prestamo ul li .icon {
+    width: 60px;
+    height: 60px;
+    background: #F1EFF1;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 0 20px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prestamo p {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.clientes {
+    background: #F1EFF1;
+}
+
+.clientes img {
+    width: 150px;
+    display: block;
+    margin: 10px auto;
+}
+
+.clientes p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.clientes .col-md-3 {
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.clientes .border-right {
+    border-right: 2px solid #fff !important;
+}
+
+.contacto img {
+    width: 140px;
+    display: block;
+    margin: 0 auto;
+}
+
+.contacto .position-absolute {
+    right: 0;
+}
+
+.contacto a {
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .home .logo {
+        width: 100px;
+    }
+
+    .home h1 {
+        line-height: 1;
+        margin-top: 24px;
+    }
+
+    .with-mobile {
+        width: calc(100% - 80px);
+    }
+
+    .contacto .position-absolute {
+        right: 0;
+        display: none;
+    }
+}
