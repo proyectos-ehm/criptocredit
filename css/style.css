@@ -143,7 +143,7 @@ ul {
         width: calc(100% - 80px);
     }
     .prestamo .icon {
-        width: 120px;
+        width: 100px;
     }
     
     .prestamo h2 {
@@ -159,7 +159,7 @@ ul {
     }
     
     .clientes img {
-        width: 120px;
+        width: 100px;
         display: block;
         margin: 10px auto;
     }
@@ -170,6 +170,6 @@ ul {
     }
     
     .contacto img {
-        width: 120px;
+        width: 100px;
     }
 }
