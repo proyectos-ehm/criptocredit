@@ -120,6 +120,9 @@ ul {
 }
 
 @media (max-width: 767px) {
+    .home {
+    background-position: center;
+    }
     .home .logo {
         width: 100px;
     }
