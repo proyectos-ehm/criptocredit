@@ -18,24 +18,24 @@
         <div class="menu fixed-top p-4 p-md-5">
             <ul class="d-flex justify-content-end align-items-center ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">INICIO</a>
+                    <a class="nav-link smooth" href="#home">INICIO</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACTO</a>
+                    <a class="nav-link smooth" href="#contacto">CONTACTO</a>
                 </li>
             </ul>
         </div>
 
-        <section class="home">
+        <section class="home" id="home">
             <div class="container">
                 <div class="row mb-5 pb-5">
                     <div class="col-md-6">
                         <img src="images/Logo.png" class="img-fluid logo" alt="">
                     </div>
-                    <div class="col-md-6 text-right px-md-5 d-flex flex-column justify-content-end align-items-center">
+                    <div class="col-md-6 text-right px-md-5 d-flex flex-column justify-content-end">
                         <h1>Préstamos a tu medida</h1>
                         <h2>$500 - $50,000</h2>
-                        <img src="images/Linea.png" class="img-fluid d-block my-3" alt="">
+                        <img src="images/Linea.png" class="d-bloc my-3" alt="">
                         <h3>Conócenos</h3>
                     </div>
                 </div>
@@ -79,10 +79,12 @@
                     <ul>
                         <li>
                             <div class="row align-items-center">
+
                                 <div class="icon">
                                     <img src="images/Clic.png" class="img-fluid" alt="">
                                 </div>
-                                Da clic en este enlace
+                                <a href="" data-toggle="modal" data-target="#exampleModalCenter"> Da clic en este
+                                    enlace</a>
                             </div>
                         </li>
                         <li>
@@ -143,7 +145,7 @@
             </div>
         </section>
 
-        <section class="contacto">
+        <section class="contacto" id="contacto">
             <div class="row">
                 <div class="col-md-6 bg_blue py-5">
                     <div class="row align-items-center">
@@ -192,6 +194,47 @@
                 </div>
             </div>
         </section>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Contáctanos</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Nombre</label>
+                                <input type="text" class="form-control" name="name" id="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" name="email" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Teléfono</label>
+                                <input type="text" class="form-control" name="phone" id="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="city">Monto del prestamo</label>
+                                <input type="text" class="form-control" name="prestamo" id="prestamo">
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Acepto términos y
+                                    condiciones</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Solicitar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
